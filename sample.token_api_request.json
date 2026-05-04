@@ -1,0 +1,39 @@
+{
+    "time": "1776407000.157",
+    "event": {
+        "actor_is_bot": false,
+        "public_repo": false,
+        "_document_id": "tWjPbax39pvd8MyeK-rZCA",
+        "action": "api.request",
+        "actor": "canary-bored-engineer",
+        "actor_ip": "203.0.113.37",
+        "actor_location": {
+            "country_code": "US"
+        },
+        "business": "canary-bored-engineer",
+        "hashed_token": "CUQ+aPiFMrcEOLXuuZ+0MDlCyaV5YXRoTkNgQMke5BE=",
+        "operation_type": "access",
+        "org": "contoso-private",
+        "programmatic_access_type": "Fine-grained personal access token",
+        "query_string": "",
+        "repo": "contoso-private/infra-secrets",
+        "request_body": "",
+        "request_id": "A381:1F948A:17901F3:17F0724:69E1D1D7",
+        "request_method": "GET",
+        "route": "/repositories/:repository_id/pulls",
+        "url_path": "/repositories/1208913072/pulls",
+        "user": "canary-bored-engineer",
+        "user_agent": "GitHub CLI 2.89.0",
+        "user_programmatic_access_name": "ci-canary",
+        "@timestamp": 1776407000157,
+        "actor_id": 272395934,
+        "business_id": 588174,
+        "created_at": 1776407000157,
+        "org_id": 275559016,
+        "rate_limit_remaining": 4994,
+        "repo_id": 1208913072,
+        "status_code": 200,
+        "token_id": 13603103,
+        "user_id": 272395934
+    }
+}

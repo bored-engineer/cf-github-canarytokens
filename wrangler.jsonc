@@ -1,0 +1,30 @@
+{
+	"name": "cf-github-canarytokens",
+	"main": "worker.ts",
+	"compatibility_date": "2026-04-01",
+	"secrets": {
+		"required": [
+			"SPLUNK_TOKEN",
+			"GITHUB_CREDENTIALS",
+			"SLACK_INCOMING_WEBHOOK_URL"
+		]
+	},
+	"observability": {
+		"logs": {
+			"enabled": true,
+			"invocation_logs": false
+		}
+	},
+	"kv_namespaces": [
+		{
+			"binding": "KV",
+			"id": "f503cae4b14c4254be16585d543e6d3f",
+			"remote": true
+		}
+	],
+	"triggers": {
+		"crons": [
+			"*/5 * * * *"
+		]
+	}
+}

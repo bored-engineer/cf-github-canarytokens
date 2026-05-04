@@ -1,0 +1,32 @@
+{
+    "time": "1776398159.553",
+    "event": {
+        "repository_public": false,
+        "_document_id": "PHelWiQ6to2YlxnWOph03A==",
+        "action": "git.clone",
+        "actor": "deploy_key",
+        "actor_ip": "203.0.113.37",
+        "actor_location": {
+            "country_code": "US"
+        },
+        "business": "canary-bored-engineer",
+        "hashed_token": "+qycZFngYHBoZcx/+Ri5lIYs8FnI8t0DPZpEECxeuLc",
+        "org": "contoso-private",
+        "programmatic_access_type": "Public Key (User/Deploy)",
+        "repo": "contoso-private/infra-secrets",
+        "repository": "contoso-private/infra-secrets",
+        "request_access_security_header": "",
+        "request_id": "d389dcd282ff50415c7b41c0d1fd09ed",
+        "transport_protocol_name": "ssh",
+        "user": "",
+        "user_agent": "git/2.53.0-Darwin",
+        "@timestamp": 1776398159553,
+        "actor_id": 0,
+        "business_id": 588174,
+        "org_id": 275559016,
+        "repository_id": 1208913072,
+        "token_id": 0,
+        "transport_protocol": 2,
+        "user_id": 0
+    }
+}
