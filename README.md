@@ -1,6 +1,8 @@
 # cf-github-canarytokens
 A Cloudflare Worker that monitors GitHub canarytokens (PATs and deploy keys) for unauthorized use and alerts via Slack.
 
+<img width="2264" height="1224" alt="image" src="https://github.com/user-attachments/assets/90d3fb5a-7c11-451a-b5da-d103d39a4467" />
+
 ## Deploy
 
 ### 1. Create the KV namespace
