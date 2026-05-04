@@ -1,5 +1,5 @@
 # cf-github-canarytokens
-A Cloudflare Worker that monitors GitHub canarytokens (PATs and deploy keys) for unauthorized use and alerts via Slack.
+A Cloudflare Worker that monitors GitHub canarytokens (PATs and deploy keys) for unauthorized use and alerts via Slack. Read [Building GitHub Canarytokens: A rant about Audit Log gaps | Luke Young | Medium](https://blog.bored.engineer/github-canarytokens-5c9e36ad7ecf) for additional context:
 
 <img width="2264" height="1224" alt="image" src="https://github.com/user-attachments/assets/90d3fb5a-7c11-451a-b5da-d103d39a4467" />
 
